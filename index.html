@@ -59,9 +59,7 @@
                               <h1 id="bat" class="  mb-3 font-weight-bold">Hackers Poulette</h1>
                               <h2 class="mb-4">Best selling reference for<br>Rasberry accessories</h2>
                               <h4 class="mb-4 font-weight-bold"> Ce mois-ci:</h4>
-                              <p id="kitdescribe" class="text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consectetur atque!
-                               Necessitatibus, omnis velit iusto alias ipsam numquam sint laudantium totam eius aut corrupti consectetur dolorum odio maiores fugiat natus.
-                              Cqui qui galere juste pour centrer un texte? C'est moiiiii</p>
+                              <p id="kitdescribe" class="text-justify">Le Raspberry Pi est un nano-ordinateur monocarte à processeur ARM conçu par des professeurs du département informatique de l'université de Cambridge dans le cadre de la fondation Raspberry Pi2.</p>
                               <a href="#products"><button class="btn btn-outline-light font-weight-bold mb-2">Voir le kit</button></a> 
                         </div>
                         <figure class="col-lg-5 text-center">
@@ -181,11 +179,11 @@
             
             <!---FORMULAIRE CONTACT--->
             <section class="container-fluid p-5 shadow-lg" id="contact">
-                  <h2 class="h2-responsive font-weight-bold text-center my-4">Contact us</h2>
+                  <h2 class="h2-responsive font-weight-bold text-center my-4">Nous contacter</h2>
                   <p class="text-center w-responsive mx-auto mb-5">Vous avez des questions ? Des avis? N'hésitez pas à nous contacter via
                         ce formulaire, nos équipes prendront le soin d'y répondre aussi vite que possible.</p>
                   <div class="row">
-                        <div class="col-md-3 text-center">
+                        <div class="col-md-2 text-center">
                               <ul class="list-unstyled mb-0">
                                   <li><i class="fas fa-map-marker-alt fa-2x"></i>
                                       <p>Coq d'Or, Charleroi, BE</p>
@@ -200,38 +198,61 @@
                                   </li>
                               </ul>
                           </div>
-                      <div class="col-md-8 mb-md-0 mb-5">
+                      <div class="col-md-8 mb-5">
                           <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                               <div class="row">
-                                  <div class="col-md-6 pb-3" >
-                                      <div class="md-form mb-0">
-                                          <input type="text" id="name" name="name" placeholder="Nom"  class="form-control">
-                                      </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="name" name="name" placeholder="Prénom"  class="form-control">
+                                    <div class="col-md-6 mb-0" >
+                                          <div class="md-form mb-0">
+                                                <input type="text" id="name" name="name" placeholder="Nom"  class="form-control">
+                                          </div>
                                     </div>
-                                </div>
-                                  <div class="col-md-6">
-                                      <div class="md-form mb-0">
-                                          <input type="text" id="email" name="email" placeholder="Email"  class="form-control">
-                                      </div>
-                                  </div>
+                                    <div class="col-md-6">
+                                          <div class="md-form mb-0">
+                                                <input type="text" id="prename" name="prname" placeholder="Prénom"  class="form-control">
+                                          </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                          <div class="md-form mb-0">
+                                                <input type="text" id="email" name="email" placeholder="Email"  class="form-control">
+                                          </div>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                          <select class="form-control" id="pays" aria-placeholder="Pays">
+                                                <option>Belgique</option>
+                                                <option>France</option>
+                                                <option>Netherlands</option>
+                                                <option>Deutschland</option>
+                                                <option>Espagna</option>
+                                          </select>
+                                    </div>
                               </div>
                               <div class="row">
-                                  <div class="col-md-6">
-                                      <div class="md-form mb-0">
-                                          <input type="text" id="subject" name="subject" placeholder="Sujet" class="form-control">
-                                      </div>
-                                  </div>
+                                    <div class="col-md-6">
+                                          <div class="md-form mb-0">
+                                                <select class="form-control" id="sujet">
+                                                      <option>Sujets</option>
+                                                      <option>Ventes/Achats</option>
+                                                      <option>Réclamation</option>
+                                                      <option>Suggestions</option>
+                                                      <option>Autres</option>
+                                                </select>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                          <select class="form-control" id="pays" >
+                                                <option>Mâle</option>
+                                                <option>Femelle</option>
+                                                <option>Autre</option>
+                                          </select>
+                                    </div>
+            
                               </div>
-                              <div class="row ">
-                                  <div class="col-md-6">
-                                      <div class="md-form">
-                                          <textarea type="text" id="message" name="message" rows="4"  placeholder="Message" class="form-control md-textarea"></textarea>
-                                      </div>
-                                  </div>
+                              <div class="row">
+                                    <div class="col-md-12">
+                                          <div class="md-form mb-0">
+                                                <textarea type="text" id="message" name="message" rows="4"  placeholder="Message" class="form-control md-textarea"></textarea>
+                                          </div>
+                                    </div>
                               </div>
                           </form>
               
