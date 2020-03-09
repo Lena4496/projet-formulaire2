@@ -1,0 +1,290 @@
+@import "_reset.scss";
+@import "_mixins.scss";
+@import "_responsive.scss";
+@import "_colors.scss";
+@import "_headings.scss";
+@import "_fonts.scss";
+
+*{
+      font-family: "Bellota";
+}
+
+body {
+      font-family: "Bellota";
+
+
+      form {
+            input, select, textarea {
+                  display: block;
+                  margin: 5px;
+            }
+
+            textarea {
+                  resize: none;
+            }
+
+            .form-btn {
+                  padding: 5px 8px;
+            }
+
+            input[type="checkbox"] {
+                  display: inline-block;
+            }
+
+      }
+
+      
+
+      #kit{
+            border: $blue 4px solid;
+            width: 65%;
+            height: auto;
+            // margin: 20px;
+      }
+
+      #kitdescribe{
+            width: 50%;
+            height: auto;
+            margin: auto;
+            margin-bottom:5%;
+      }
+
+
+      h1{
+            color: $blue;
+            text-shadow: teal 1px 1px 1px;
+      }
+
+
+
+      figure{
+            display: grid;
+            justify-content: right;
+            align-content: center;
+            padding: 0;
+            margin: 0;
+      }
+
+      .jumbotron{
+            margin-bottom: 0;
+
+            h1{
+                  font-size: 50px;
+            }
+      }
+
+      #jumbo{
+           
+            padding: 0;
+            margin: 0;
+
+            p{
+                  font-size: large;
+            }
+      }
+
+      .navbar-brand{
+            margin: 0;
+            padding: 0;
+            width: 140px ;
+            // height: 80px;
+
+            
+
+      }
+
+      .btn{
+            background-color: $blue;
+            border: $blueF 1px solid;
+      }
+
+      #describeQ{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            // padding-right: auto;
+            // padding-left: auto;
+      }
+
+      img{
+            width: 80%;
+      }
+
+      .fa-facebook{
+            color: $facebook;
+            
+      }
+
+      .fa-twitter{
+            color: $twitter;
+            
+      }
+      
+      .fa-dribbble{
+            color: $dribbble;
+      }
+
+      .fa-linkedin-in{
+            color: $linkedIn;
+
+           
+      }
+
+       a i:hover{
+                  color: grey;
+            }
+      
+      
+
+      #product{
+           
+            justify-content: center;
+            align-content: center;
+
+      
+      }
+
+      #products{
+
+            h2{
+                  color: $blue;
+                  text-shadow: teal 1px 1px 1px;
+            }
+      }
+
+      
+
+      .card{
+            min-width: auto;
+            max-width: max-content;
+            min-height: auto;
+            max-height: max-content;
+            border: $blueF 1px dashed;
+            padding: 0;
+
+            img{
+                  width: 271px;
+                  height: 253px;
+            }
+      }
+
+      .card-body{
+            min-width: auto;
+            max-width: max-content;
+            min-height: auto;
+            max-height: max-content;
+            
+      }
+
+      #who{
+
+            background-color: $blue;
+            color: white;
+            font-weight: bold;
+
+            h2{
+                  text-shadow: teal 2px 1px 2px;
+
+
+            }
+
+            
+
+            p{
+                  font-size: 25px;
+                  text-shadow: teal 1px 1px 2px;
+            }
+
+
+            figure{
+                  // width: auto;
+                  background-color: white;
+                  border-radius: 70%;
+                  border: teal 1px solid;
+
+                  img{
+                        width: 50%;
+                        
+
+                  }
+            }
+
+            div{
+                  padding:0;
+            }
+
+            article{
+                  padding: 0;
+                  margin: 0;
+            }
+      }
+
+
+
+            i.fas{
+                  color: $blue;
+                  
+            }
+      
+      #site a{
+            color: $blue;
+      }
+
+            
+      #hack{
+                  color: $blue;
+            }
+
+      #contact{
+
+      
+
+            h2{
+                  color: $blue;
+                  text-shadow: teal 1px 1px 1px;
+            }
+      }
+
+      footer{
+
+
+            p{
+                  font-size: medium;
+            }
+      }
+
+      #poulette{
+
+            color: $blue;
+
+
+      }
+      @keyframes bounce{
+           from {opacity: 0%;}
+       
+           to   {opacity: 100%;}
+      }
+
+
+      #bat{
+            animation-name: bounce;
+            animation-duration: 5s;
+            animation-fill-mode: both;
+      }
+      
+
+
+      video{
+            width: 100%;
+            height: 100%;
+            background-size: auto;
+            position: relative;
+            
+
+      }
+
+      
+}
+
+
+
